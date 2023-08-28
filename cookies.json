@@ -1,0 +1,47 @@
+[
+  {
+    "name": "ATERNOS_SESSION",
+    "value": "SOuhf1lxejdej9YqJ1zabXD2VwAYl7LuUpSXFF0IaZjDn7SneUjX1tbaWd2HXV0mDUwRu6NBcBV7Q8MUg1MPacwSPjnQto8UqUg9",
+    "domain": "aternos.org",
+    "path": "/",
+    "expires": 1695775446.596843,
+    "size": 115,
+    "httpOnly": true,
+    "secure": false,
+    "session": false,
+    "sameSite": "Lax",
+    "sameParty": false,
+    "sourceScheme": "Secure",
+    "sourcePort": 443
+  },
+  {
+    "name": "ATERNOS_LANGUAGE",
+    "value": "en",
+    "domain": "aternos.org",
+    "path": "/",
+    "expires": 1727743443.868552,
+    "size": 18,
+    "httpOnly": false,
+    "secure": false,
+    "session": false,
+    "sameSite": "Lax",
+    "sameParty": false,
+    "sourceScheme": "Secure",
+    "sourcePort": 443
+  },
+  {
+    "name": "cf_clearance",
+    "value": "njz5wZ81DqzvFkwu1b5XjquMjJXVFJJvU_H0DVkZl1o-1693183442-0-1-5fa76215.6cc599da.8a63df5-0.2.1693183442",
+    "domain": ".aternos.org",
+    "path": "/",
+    "expires": 1724719442.828331,
+    "size": 111,
+    "httpOnly": true,
+    "secure": true,
+    "session": false,
+    "sameSite": "None",
+    "sameParty": false,
+    "sourceScheme": "Secure",
+    "sourcePort": 443
+  }
+]

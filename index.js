@@ -2,6 +2,11 @@ const { Client, GatewayIntentBits, Partials, Collection, Message } = require('di
 const puppeteer = require('puppeteer-extra')
 const fs = require('fs').promises;
 const StealthPlugin = require('puppeteer-extra-plugin-stealth')
+// Importa el módulo 'dotenv' para cargar variables de un archivo .env (si es necesario)
+require('dotenv').config();
+
+// Accede a la variable de entorno 'API_KEY'
+const KEY = process.env.KEY;
 puppeteer.use(StealthPlugin())
 
 const AdblockerPlugin = require('puppeteer-extra-plugin-adblocker')
@@ -84,4 +89,4 @@ client.on('messageCreate', async (Message) => {
 })
 
 
-client.login("");
+client.login(KEY);
